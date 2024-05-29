@@ -1,0 +1,35 @@
+.main{
+    background-color: #1abc9c;
+    height:500px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+}
+.icons {
+    position: relative;
+  }
+  
+  .icons::before,
+  .icons::after {
+    content: "";
+    position: absolute;
+    width: 161px;
+    height: 5px;
+    background-color: white;
+  }
+  
+  .icons::before {
+    top:69px;
+    right: 210px;
+  }
+  
+  .icons::after {
+    top: 69px;
+    right: 17px;
+}
+  .text-white {
+    color: white;
+  }
+  .free{
+    text-align: left;
+  }
